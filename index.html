@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Memória | BluMA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jogo da Memória</h1>
+    <p>Encontre todos os pares com o menor número de tentativas!</p>
+  </header>
+  <main>
+    <section class="info-panel">
+      <div>Tentativas: <span id="moves">0</span></div>
+      <div>Tempo: <span id="timer">00:00</span></div>
+      <div>Recorde: <span id="best-score">--</span></div>
+      <button id="reset">Reiniciar</button>
+    </section>
+    <section class="game-board" id="game-board">
+      <!-- Cartas geradas dinamicamente -->
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por BluMA | <a href="https://github.com/bluma05/jogo-da-memoria-bluma" target="_blank">GitHub</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
